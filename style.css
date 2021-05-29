@@ -10,8 +10,6 @@
     margin: 0 auto;
 }
 li {
-    /* position: relative; */
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     list-style: none;
@@ -22,19 +20,12 @@ li {
     margin-bottom: 15px;
 }
 h2 {
-    /* position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); */
     font-size: 14px;
     text-align: center;
 }
 p {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) */
+    text-align: center;
+    margin-top: 55px;
 }
 
 @media screen and (max-width: 767px) {

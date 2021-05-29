@@ -80,10 +80,12 @@ function createBlock(obj) {
       "beforeend",
       `<li>
     <h2>${objColumn.name}</h2>
-    <p style=${content.length > 100? 'margin-top:300px' : null }>${content}</p>
+    <p >${content}</p>
     </li>`
     );
   }
 }
 
 createBlock(data);
+
+// style=${content.length > 100? 'margin-top:300px' : null }
